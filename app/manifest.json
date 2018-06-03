@@ -1,0 +1,16 @@
+{
+    "name": "Universo de criptomonedas",
+    "version": "1.0",
+    "description": "Bienvenido al universo de criptomonedas!",
+    "permissions": ["storage", "declarativeContent", "activeTab", "tabs"],
+
+    "manifest_version": 2,
+    "browser_action": {
+        "default_icon": "images/icons/image48.png",
+        "default_title": "Bienvenido al universo de criptomonedas!"
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
+  }
